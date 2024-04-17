@@ -11,5 +11,6 @@ $submit = $_POST["submit_boton"];
 
 switch ($idioma){
     case 'ingles':
+        Echo "<br> <p>Hola mundo!</p>";
 }
 ?>
