@@ -5,6 +5,6 @@ $matriz_estudiantes = array(
     "intermedio" => 
     array("ingles"=> 15, "frances" => 5, "mandarin" => 4, "ruso" => 8, "portugues" => 15, "japones" => 25),
     "avanzado" => 
-    array("ingles"=> 10, "frances" => 2, "mandarin" => 1, "ruso" => 4, "portugues" => 10, "japones" => 67); 
+    array("ingles"=> 10, "frances" => 2, "mandarin" => 1, "ruso" => 4, "portugues" => 10, "japones" => 67) 
 );
 ?>
