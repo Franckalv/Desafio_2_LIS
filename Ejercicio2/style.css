@@ -1,0 +1,97 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 2.4rem;
+  background-color: #f2f2f2; /* Color de fondo para toda la página */
+}
+
+p {
+  font-size: 2rem;
+  color: black;
+  line-height: 1.5;
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 5rem 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.header.h1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+  padding: 10rem 0;
+  color: black;
+  background-color: #ffffff; /* Color de fondo para el contenedor */
+  border-radius: 10px; /* Bordes redondeados para el contenedor */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.container .form-control {
+  margin-bottom: 1.5rem !important; /* Espacio entre los campos */
+  border: 1px solid #ccc !important; /* Borde para los campos de texto */
+  border-radius: 5px !important; /* Bordes redondeados para los campos de texto */
+  padding: 1rem !important; /* Espacio interno */
+  font-size: 1.6rem !important; /* Tamaño de fuente */
+  display: block !important; /* Mostrar como bloque para que estén uno debajo del otro */
+  width: 100% !important; /* Ocupar todo el ancho disponible */
+  box-sizing: border-box !important; /* Mantener el ancho correcto incluso con el borde */
+}
+
+.container .btn-primary {
+  background-color: #007bff; /* Color de fondo para el botón */
+  border: none !important;
+  border-radius: 5px !important;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container .btn-primary:hover {
+  background-color: #0056b3; /* Color de fondo para el botón al pasar el mouse */
+}
